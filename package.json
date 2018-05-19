@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TannerReynolds/Translation-Bot.git"
+    "url": "git+https://github.com/azuragaming7/translator.git"
   },
   "keywords": [
     "Translate"
@@ -16,9 +16,9 @@
   "author": "TannerReynolds",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TannerReynolds/Translation-Bot/issues"
+    "url": "https://github.com/azuragaming7/Translator/issues"
   },
-  "homepage": "https://github.com/TannerReynolds/Translation-Bot#readme",
+  "homepage": "https://github.com/azuragaming7/Translator#readme",
   "dependencies": {
     "eris": "^0.7.2",
     "flipout": "^1.0.0",
