@@ -355,3 +355,4 @@ bot.connect()
 // Uncaught error handling
 process.on("unhandledRejection", e => { console.log(`unhandledRejection\n${e.stack}`) })
 process.on("uncaughtException", e => { console.log(`uncaughtException\n${e.stack}`) })
+client.login(process.env.BOT_TOKEN);
