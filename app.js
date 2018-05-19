@@ -274,11 +274,11 @@ bot.on("messageCreate", async msg => {
       fields: [
         {
           name: "Translating your messages",
-          value: "Translate makes it easy to translate any message you want to just about any language you can think of! All you have to do is type **\"-t (language) (text to be translated)\"** and translate will handle the rest! For example, if I want to tell somebody what my name is in korean, I just have to type **\"-t korean Hi, my name is Tanner!\"**"
+          value: "Translate makes it easy to translate any message you want to just about any language you can think of! All you have to do is type **\":t (language) (text to be translated)\"** and translate will handle the rest! For example, if I want to tell somebody what my name is in korean, I just have to type **\":t korean Hi, my name is Tanner!\"**"
         },
         {
           name: "Finding out what language people are speaking in",
-          value: "If you see people chatting away in a language you dont know, and you want to take part in the conversaion, you can type **\"-t lang (text to analyze)\"** and Translate will dissect the message and tell you what language they\"re speaking in! For example, All I\"d have to type is **\"-t lang 안녕하세요, 만나서 반가워요!\"** to find out that they\"re speaking in korean"
+          value: "If you see people chatting away in a language you dont know, and you want to take part in the conversaion, you can type **\":t lang (text to analyze)\"** and Translate will dissect the message and tell you what language they\"re speaking in! For example, All I\"d have to type is **\":t lang 안녕하세요, 만나서 반가워요!\"** to find out that they\"re speaking in korean"
         },
         {
           name: "Translating Messages Automatically",
@@ -286,7 +286,7 @@ bot.on("messageCreate", async msg => {
         },
         {
           name: "Other commands available",
-          value: "```ini\n[patreon] Sends a link to our patreon so you can support development!\n\n[invite] Sends an invite link so that your friends can invite Translate to their servers too\n\n[-t stats] Shows some cool technical statistic nerd-stuff about the bot\n\n[-t shards] Displays all the bot\"s shards, along with their pings\n```"
+          value: "```ini\n[patreon] Sends a link to our patreon so you can support development!\n\n[invite] Sends an invite link so that your friends can invite Translate to their servers too\n\n[:t stats] Shows some cool technical statistic nerd-stuff about the bot\n\n[:t shards] Displays all the bot\"s shards, along with their pings\n```"
         },
         {
           name: "More Information",
